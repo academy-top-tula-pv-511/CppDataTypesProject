@@ -2,9 +2,9 @@
 
 int main()
 {
-    /*int n;
+    int n{ 5 };
 
-    std::cout << "bool: " << sizeof(bool) << "\n";
+    /*std::cout << "bool: " << sizeof(bool) << "\n";
     std::cout << "char: " << sizeof(char) << "\n";
     std::cout << "short: " << sizeof(short) << "\n";
     std::cout << "int: " << sizeof(n) << "\n";
@@ -40,13 +40,20 @@ int main()
 
     std::cout << sum1 - sum2 << "\n";*/
 
-    int n{ 5 };
-
-    int m = n++ + n++;
-
     // n++; // postfix
     // ++n; // prefix
-    /*int r = n++;
+    /*int r = ++n;
     std::cout << n << "\n";
     std::cout << r << "\n";*/
+
+    /*int a{ 26 };
+    int b{ 11 };
+
+    std::cout << (double)a / b << "\n";
+
+    float x{ 34.897 };
+    double y{ x };
+
+    long long big{ 11 };
+    int n{ (int)big };*/
 }
